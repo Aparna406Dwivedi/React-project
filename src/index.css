@@ -1,0 +1,53 @@
+body {
+  --bs-body-font-family: var(--bs-font-monospace);
+  --bs-body-line-height: 1.4;
+  --bs-body-bg: var(--bs-gray-100);
+  padding: 10px 510px;
+  background-image: url("https://64.media.tumblr.com/352745a46ac7fea8ce5a2cc6532377c9/tumblr_pk0lq1CPye1tbadl0_500.gif");
+ 
+    background-size: cover;
+    height: 100vh;
+   
+  
+}
+.button {
+  background-color: #bb0c0c;
+  border: none;
+  color: white;
+  padding: 5px 30px;
+  font-size: 15px;
+  text-align: center;
+}
+.button2 {
+  background-color: #23ab0b;
+  border: none;
+  color: white;
+  padding: 10px 60px;
+  font-size: 15px;
+  text-align: center;
+}
+.text {
+  padding: 10px 10px;
+  font-size: 15px;
+  text-align: center;
+}
+.text1 {
+  border: none;
+  padding: 5px 0px;
+  font-size: 20px;
+  text-align: center;
+}
+.border{
+  border:2px solid black;
+  width: 500px;
+  height:600px;
+  text-align: center;
+  background-color: rgb(168, 215, 227);
+  
+  overflow: scroll;
+}
+.border:hover{
+  -webkit-box-shadow: 0 0 5px 2px red;
+  -moz-box-shadow: 0 0 5px 2px red;
+  box-shadow: 0 0 5px 2px red;
+}
